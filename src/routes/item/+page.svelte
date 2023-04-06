@@ -1,6 +1,12 @@
 <script lang="ts">
     import type {Item} from '../item'
+<<<<<<< HEAD
     let item: Item = {name: "Hammer", id: "001", description: "Good hammer", price: 100, amount: 2, vendor: "Vendor1"}
+=======
+    let item: Item = {
+        name: "Hammer", id: "001", description: "Good hammer", price: 100, amount: 2, vendor: "Vendor1"
+    }
+>>>>>>> aa78633695022562589a4ffe80015e3020022a31
 </script>
 <svelte:head>
 	<title>{item.name}</title>
